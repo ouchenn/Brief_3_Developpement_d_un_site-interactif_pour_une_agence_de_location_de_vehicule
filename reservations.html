@@ -40,198 +40,70 @@
 
     <!-- Page Title -->
     <div class="page-title">
-        <h1>FLEET</h1>
+        <h1>RESERVATION</h1>
     </div>
 
     <body>
-        <!-- Car Section -->
-        <div class="gallery-page">
-            <section class="fleet-line">
-                <div class="vehicule-slide">
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/car-1.jpeg" alt="Car Image">
-                        </div>
-                    </div>
+        <div class="booking-elements">
+            <!-- Contact Form -->
+            <form>
 
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/car-2.jpg" alt="Car Image">
-                        </div>
-                    </div>
-
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/car-3.jpg" alt="Car Image">
-                        </div>
-                    </div>
-
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/car-4" alt="Car Image">
-                        </div>
-                    </div>
-
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/car-5" alt="Car Image">
-                        </div>
-                    </div>
-
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/car-6" alt="Car Image">
-                        </div>
-                    </div>
-
+                <div class="booking-row">
+                    <label for="choose-vehicule">Pick-Up Date</label>
+                    <input type="date" id="startdate">
                 </div>
 
-                <button>View Catalogue</button>
-            </section>
-
-            <!-- End Car Section -->
-            <!-- Motocycle Section -->
-
-            <section class="fleet-line">
-                <div class="vehicule-slide">
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/moto-1.jpeg" alt="Moto Image">
-                        </div>
-                    </div>
-
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/moto-2.jpg" alt="Moto Image">
-                        </div>
-                    </div>
-
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/moto-3.jpg" alt="Moto Image">
-                        </div>
-                    </div>
-
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/moto-4.jpg" alt="Moto Image">
-                        </div>
-                    </div>
-
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/moto-5.jpg" alt="Moto Image">
-                        </div>
-                    </div>
-
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/moto-6.jpg" alt="Moto Image">
-                        </div>
-                    </div>
-
+                <div class="booking-row">
+                    <label for="">Return Date</label>
+                    <input type="date" id="returndate">
                 </div>
 
-                <button>View Catalogue</button>
-            </section>
-
-            <!-- End Motocycle Section -->
-            <!-- Van Section -->
-
-            <section class="fleet-line">
-                <div class="vehicule-slide">
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/suv-1.jpg" alt="Van Image">
-                        </div>
-                    </div>
-
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/suv-2.jpg" alt="Van Image">
-                        </div>
-                    </div>
-
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/suv-3.jpg" alt="Van Image">
-                        </div>
-                    </div>
-
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/suv-4.jpg" alt="Van Image">
-                        </div>
-                    </div>
-
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/suv-5.jpg" alt="Van Image">
-                        </div>
-                    </div>
-
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/suv-6.jpg" alt="Van Image">
-                        </div>
-                    </div>
-
+                <div class="booking-row">
+                    <label for="">Vehicule</label>
+                    <select name="vehicule" id="veh-type" onchange="bookingInput()">
+                        <option>Select your option</option>
+                        <option id="motocycle">Motorcycle</option>
+                        <option id="city-car">City Car</option>
+                        <option id="compact-car">Compact Car</option>
+                        <option id="sedan-car">Sedan Car</option>
+                        <option id="utility-car">Utility Vehicle</option>
+                        <option id="heavy-equipment">Heavy Equipment</option>
+                        <option id="truck">Truck</option>
+                    </select>
                 </div>
 
-                <button>View Catalogue</button>
-            </section>
-
-            <!-- End Van Section -->
-            <!-- Truck Section -->
-
-            <section class="fleet-line">
-                <div class="vehicule-slide">
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/truck-1.jpg" alt="Truck Image">
-                        </div>
-                    </div>
-
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/truck-2.jpg" alt="Truck Image">
-                        </div>
-                    </div>
-
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/truck-3.jpg" alt="Truck Image">
-                        </div>
-                    </div>
-
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/truck-4.jpg" alt="Truck Image">
-                        </div>
-                    </div>
-
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/truck-5.jpg" alt="Truck Image">
-                        </div>
-                    </div>
-
-                    <div class="veh-col">
-                        <div class="img-box">
-                            <img src="images/truck-6.jpg" alt="Truck Image">
-                        </div>
-                    </div>
-
+                <div class="booking-row">
+                    <label for="">Energy</label>
+                    <select name="energy" id="energy-type" onchange="bookingInput()">
+                        <option value="">Select your option</option>
+                        <option class="energy" value="0.05" id="electric">Electric</option>
+                        <option class="energy" value="0.09" id="hybird">Hybrid</option>
+                        <option class="energy" value="0.14" id="gasoline">Gasoline</option>
+                        <option class="energy" value="0.21" id="diesel">Diesel</option>
+                    </select>
                 </div>
 
-                <button>View Catalogue</button>
-            </section>
+                <div class="booking-row">
+                    <label for="">Transmission</label>
+                    <select name="transmission" id="transmission-type" onchange="bookingInput()">
+                        <option value="">Select your option</option>
+                        <option class="transmission" id="automatic">Automatic</option>
+                        <option class="transmission" id="manual">Manual</option>
+                    </select>
+                </div>
 
-            <!-- End Truck Section -->
+                <a href="#"><button type="button" onclick="price()">Submit</button></a>
+
+            </form>
+
+        </div>
+
+        <div class="pricedisplay">
+            <h3 id="priceis"></h3>
         </div>
 
         <!-- Footer -->
-
+        
         <footer>
             <div class="footer-rows">
                 <!-- First Raw -->
@@ -304,7 +176,7 @@
                                 </a>
                             </span>
                         </div>
-
+        
                         <div class="newsletter">
                             <span class="nav-title">Stay Connected</span>
                             <form id="subscribe">
@@ -325,10 +197,11 @@
                 </div>
                 <!-- Second Raw -->
             </div>
-
+        
         </footer>
-
+        
         <!-- End Footer -->
+
     </body>
 
 </html>
